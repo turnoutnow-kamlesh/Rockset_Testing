@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@rockset/client": "^0.8.31"
+    "@rockset/client": "^0.8.31",
+    "dotenv": "^16.0.3"
   }
 }
