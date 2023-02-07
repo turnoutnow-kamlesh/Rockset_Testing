@@ -10,7 +10,7 @@ const getData = async()=>{
         method:"post",
         url:"https://api.usw2a1.rockset.com/v1/orgs/self/ws/dev/lambdas/tn_pc-getAllMeetings/tags/latest ",
         headers:{
-                "Authorization": 'ApiKey NiJ6NGrjL8yhMM5dr9ohZE8SrBh3tGsLkCbBuE7RO6Gk1z35h24lbLnXMwgOKJIg',
+                "Authorization": 'ApiKey',
                 "Content-Type": 'application/json' 
                 },
      
