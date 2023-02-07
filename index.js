@@ -5,7 +5,7 @@ const {default:rockset} = require("@rockset/client");
 // const rockset = require("@rockset/client").default;
 
 const apikey = process.env.ROCKSET_APIKEY;
-const rocksetClient = rockset('NiJ6NGrjL8yhMM5dr9ohZE8SrBh3tGsLkCbBuE7RO6Gk1z35h24lbLnXMwgOKJIg', "https://api.usw2a1.rockset.com");
+const rocksetClient = rockset("https://api.usw2a1.rockset.com");
 // rocksetClient.queries.query({
 //         sql: {
 //             query: 'SELECT * FROM dev.dev_tn_pc ORDER BY name DESC LIMIT 10',
